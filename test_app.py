@@ -6,7 +6,7 @@
 #4. Anisa Aulia Febrina         F55124005
 #5. Atalya Victoria             F55124028
 
-from app import tambah, kurang
+from app import tambah, kurang, kali
 
 def test_tambah():
     assert tambah(2, 3) == 5
@@ -14,3 +14,6 @@ def test_tambah():
 
 def test_kurang():
     assert kurang(10, 5) == 5
+
+def test_kali():
+    assert kali (2, 5) == 10
